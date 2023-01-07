@@ -9,8 +9,11 @@ https://docs.google.com/document/d/1Dld1cYpnZKmAX2OqepxQOaZqM0FERimj6Izsg6l0o1E/
 **Draft overview** (draft, working doc):
 https://docs.google.com/presentation/d/1g7npHesEnWwHwn2wQO1GmfPRMRiqhmJeg7IrhNh-vFc/edit#slide=id.p
 
-**Figma designs**:
+**Navigator Process Chart**:
 https://www.figma.com/files/project/68580378/CancerMoonshot-ClickNCare?fuid=548643957013002706
+
+**Pediatric  Cancer Psychology Model**:
+https://www.figma.com/file/XUyBMFSBhd1Qybcxg2IsKD/Pediatric-Cancer-Psychology-Model?t=eGIp3WE92etPSoMS-6
 
 
 
