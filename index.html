@@ -3,60 +3,17 @@
 
 <head>
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+
 </head>
 
 <body>
-
-<h1>Cancer Navigation in the United States</h1>
-
-<p>Everyone will have a <em>different</em> journey. Some experiences extend beyond what we have included or unfold in a different order.</p>
-
-<div class="legend-container">
-    <div class="legend-item">
-        <div class="legend-color" style="background-color: pink;"></div>
-        <span>patient</span>
-    </div>
-
-    <div class="legend-item">
-        <div class="legend-color" style="background-color: rgb(249, 152, 77);"></div>
-        <span>clinician</span>
-    </div>
-
-    <div class="legend-item">
-        <div class="legend-color" style="background-color: rgb(77, 126, 249);"></div>
-        <span>hospital administrator</span>
-    </div>
-
-    <div class="legend-item">
-        <div class="legend-color" style="background-color: rgb(209, 77, 249);"></div>
-        <span>digital service</span>
-    </div>
-
-    <div class="legend-item">
-        <div class="legend-color" style="background-color: rgb(202, 0, 94);"></div>
-        <span>coordinator</span>
-    </div>
-
-    <div class="legend-item">
-        <div class="legend-color" style="background-color: rgb(0, 202, 101);"></div>
-        <span>financial navigator</span>
-    </div>
-
-    <div class="legend-item">
-        <div class="legend-color" style="background-color: rgb(249, 232, 44);"></div>
-        <span>transportation & lodging</span>
-    </div>
-
-    <div class="legend-item">
-        <div class="legend-color" style="background-color: rgb(30, 0, 202);"></div>
-        <span>patient literacy</span>
-    </div>
-
-    <div class="legend-item">
-        <div class="legend-color" style="background-color: rgb(208, 208, 208);"></div>
-        <span>standard health record</span>
-    </div>
+    
+<div>
+    <p class="alignleft">American <br> Cancer<br>Navigator</p>
 </div>
+
 
 <div class="grid-container">
 <!--Titles-->
@@ -82,62 +39,142 @@
   <div class="grid-item">Palliative Care</div>  
   <div class="grid-item">End of Life</div>  
 <!--Patients-->
-  <div class="grid-item-filled-patient"></div>
-  <div class="grid-item-filled-patient"></div>
-  <div class="grid-item-filled-patient"></div>  
-  <div class="grid-item-filled-patient"></div>
-  <div class="grid-item-filled-patient"></div>
-  <div class="grid-item-filled-patient"></div>  
-  <div class="grid-item-filled-patient"></div>
-  <div class="grid-item-filled-patient"></div>
-  <div class="grid-item-filled-patient"></div>  
-  <div class="grid-item-filled-patient"></div>  
-  <div class="grid-item-filled-patient"></div>  
-  <div class="grid-item-filled-patient"></div>  
-  <div class="grid-item-filled-patient"></div>  
-  <div class="grid-item-filled-patient"></div>  
-  <div class="grid-item-filled-patient"></div>  
-  <div class="grid-item-filled-patient"></div>  
-  <div class="grid-item-filled-patient"></div>  
-  <div class="grid-item-filled-patient"></div>  
-  <div class="grid-item-filled-patient"></div> 
-  <div class="grid-item-filled-patient"></div>  
-  <div class="grid-item-filled-patient"></div> 
+  <div class="pink tooltip" id="pink" onclick="pink_Div()">Patients</div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip" id="myDiv" onclick="togglePanel()">CLICK ME
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div id="myPanel">
+    <h2>Side Panel</h2>
+    <p class="side-panel">
+        Panel content goes here...
+        <img class="image" src="https://cdn.discordapp.com/attachments/1008571246654533692/1106032411965403216/clawface_consent_to_sharing_health_data_06bf23d7-470c-4abe-9f92-d4d5762673cd.png" alt="Patient consent to sharing health data across facilities">
+    </body>
+    </p>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
 <!--Clinicians-->
   <div class="grid-item"></div>
-  <div class="grid-item-filled-clinician"></div>
+  <div class="pink tooltip">Clinicians
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
   <div class="grid-item"></div>  
-  <div class="grid-item-filled-clinician"></div>
-  <div class="grid-item"></div>
-  <div class="grid-item-filled-clinician"></div>  
-  <div class="grid-item-filled-clinician"></div>
-  <div class="grid-item-filled-clinician"></div>
+  <div class="pink tooltip">Clinicians
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>  
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>
   <div class="grid-item"></div>  
   <div class="grid-item"></div>  
   <div class="grid-item"></div>  
-  <div class="grid-item-filled-clinician"></div>  
-  <div class="grid-item-filled-clinician"></div>  
-  <div class="grid-item-filled-clinician"></div>  
+  <div class="pink tooltip">Clinicians
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>  
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>  
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>  
   <div class="grid-item"></div>  
   <div class="grid-item"></div>  
   <div class="grid-item"></div>  
-  <div class="grid-item-filled-clinician"></div>  
-  <div class="grid-item-filled-clinician"></div> 
-  <div class="grid-item-filled-clinician"></div>  
+  <div class="pink tooltip">Clinicians
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>  
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div> 
+  <div class="pink tooltip">
+    <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+  </div>  
   <div class="grid-item"></div>  
 <!--Hospital Administrator-->
     <div class="grid-item"></div>
     <div class="grid-item"></div>
     <div class="grid-item"></div>  
-    <div class="grid-item-filled-admin"></div>
+    <div class="pink tooltip">Hospital Admin
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
     <div class="grid-item"></div>
     <div class="grid-item"></div>  
-    <div class="grid-item-filled-admin"></div>
-    <div class="grid-item-filled-admin"></div>
+    <div class="pink tooltip">Hospital Admin
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="pink tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
-    <div class="grid-item-filled-admin"></div>  
+    <div class="pink tooltip">Hospital Admin
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
@@ -148,66 +185,130 @@
     <div class="grid-item"></div>  
     <div class="grid-item"></div> 
 <!--Digital Service-->
-    <div class="grid-item-filled-digital"></div>
-    <div class="grid-item-filled-digital"></div>
-    <div class="grid-item-filled-digital"></div>  
+    <div class="purple tooltip">Digital Coordinator
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
     <div class="grid-item"></div>
     <div class="grid-item"></div>
-    <div class="grid-item-filled-digital"></div>  
-    <div class="grid-item-filled-digital"></div>
-    <div class="grid-item-filled-digital"></div>
-    <div class="grid-item-filled-digital"></div>  
+    <div class="purple tooltip">Digital Coordinator
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
     <div class="grid-item"></div>  
-    <div class="grid-item-filled-digital"></div>  
-    <div class="grid-item-filled-digital"></div>  
-    <div class="grid-item-filled-digital"></div>  
-    <div class="grid-item-filled-digital"></div>  
+    <div class="purple tooltip">Digital Coordinator
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
-    <div class="grid-item-filled-digital"></div>  
-    <div class="grid-item-filled-digital"></div> 
-    <div class="grid-item-filled-digital"></div>  
-    <div class="grid-item-filled-digital"></div> 
+    <div class="purple tooltip">Digital Coordinator
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div> 
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div> 
 <!--Human Coordinator-->
     <div class="grid-item"></div>
-    <div class="grid-item-filled-coordinator"></div>
-    <div class="grid-item-filled-coordinator"></div>  
+    <div class="purple tooltip">Human Coordinator
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
     <div class="grid-item"></div>
     <div class="grid-item"></div>
-    <div class="grid-item-filled-coordinator"></div>  
-    <div class="grid-item-filled-coordinator"></div>
-    <div class="grid-item-filled-coordinator"></div>
-    <div class="grid-item-filled-coordinator"></div>  
+    <div class="purple tooltip">Human Coordinator
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
     <div class="grid-item"></div>  
-    <div class="grid-item-filled-coordinator"></div>  
-    <div class="grid-item-filled-coordinator"></div>  
-    <div class="grid-item-filled-coordinator"></div>  
-    <div class="grid-item-filled-coordinator"></div>  
+    <div class="purple tooltip">Human Coordinator
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
-    <div class="grid-item-filled-coordinator"></div>  
-    <div class="grid-item-filled-coordinator"></div> 
+    <div class="purple tooltip">Human Coordinator
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div> 
     <div class="grid-item"></div> 
 <!--Financial Navigator-->
     <div class="grid-item"></div>
     <div class="grid-item"></div>
     <div class="grid-item"></div>  
     <div class="grid-item"></div>
-    <div class="grid-item-filled-financial"></div>
+    <div class="purple tooltip">Financial Navigator
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
     <div class="grid-item"></div>  
-    <div class="grid-item-filled-financial"></div>
-    <div class="grid-item-filled-financial"></div>
+    <div class="purple tooltip">Financial Navigator
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
     <div class="grid-item"></div>  
-    <div class="grid-item-filled-financial"></div>  
+    <div class="purple tooltip">Financial Navigator
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
-    <div class="grid-item-filled-financial"></div>  
+    <div class="purple tooltip">Financial Navigator
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
     <div class="grid-item"></div>  
     <div class="grid-item"></div> 
     <div class="grid-item"></div>  
@@ -217,16 +318,28 @@
     <div class="grid-item"></div>
     <div class="grid-item"></div>  
     <div class="grid-item"></div>
-    <div class="grid-item-filled-tl"></div>
+    <div class="purple tooltip">Transportation & Lodging
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
     <div class="grid-item"></div>  
-    <div class="grid-item-filled-tl"></div>
-    <div class="grid-item-filled-tl"></div>
+    <div class="purple tooltip">Transportation & Lodging
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
-    <div class="grid-item-filled-tl"></div>  
-    <div class="grid-item-filled-tl"></div>  
-    <div class="grid-item-filled-tl"></div>  
+    <div class="purple tooltip">Transportation & Lodging
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
@@ -241,46 +354,98 @@
     <div class="grid-item"></div>
     <div class="grid-item"></div>
     <div class="grid-item"></div>  
-    <div class="grid-item-filled-literacy"></div>
-    <div class="grid-item-filled-literacy"></div>
+    <div class="purple tooltip">Patient Literacy Module
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="purple tooltip"></div>
     <div class="grid-item"></div>  
-    <div class="grid-item-filled-literacy"></div>  
-    <div class="grid-item"></div>  
-    <div class="grid-item"></div>  
-    <div class="grid-item"></div>  
-    <div class="grid-item-filled-literacy"></div>  
-    <div class="grid-item"></div>  
-    <div class="grid-item"></div>  
+    <div class="purple tooltip">Patient Literacy Module
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
     <div class="grid-item"></div>  
     <div class="grid-item"></div>  
-    <div class="grid-item-filled-literacy"></div> 
-    <div class="grid-item-filled-literacy"></div>  
+    <div class="grid-item"></div>  
+    <div class="purple tooltip">Patient Literacy Module
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
+    <div class="grid-item"></div>  
+    <div class="grid-item"></div>  
+    <div class="grid-item"></div>  
+    <div class="grid-item"></div>  
+    <div class="purple tooltip">Patient Literacy Module
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div> 
+    <div class="purple tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
     <div class="grid-item"></div> 
     <div class="grid-item"></div> 
 
 
 <!--Standard Health Record-->
-    <div class="grid-item-filled-record"></div>
-    <div class="grid-item-filled-record"></div>
-    <div class="grid-item-filled-record"></div>    
-    <div class="grid-item-filled-record"></div>
-    <div class="grid-item-filled-record"></div>
-    <div class="grid-item-filled-record"></div> 
-    <div class="grid-item-filled-record"></div>
-    <div class="grid-item-filled-record"></div>
-    <div class="grid-item-filled-record"></div>    
-    <div class="grid-item-filled-record"></div>
-    <div class="grid-item-filled-record"></div>
-    <div class="grid-item-filled-record"></div> 
-    <div class="grid-item-filled-record"></div>    
-    <div class="grid-item-filled-record"></div>
-    <div class="grid-item-filled-record"></div>
-    <div class="grid-item-filled-record"></div> 
-    <div class="grid-item-filled-record"></div>    
-    <div class="grid-item-filled-record"></div>
-    <div class="grid-item-filled-record"></div>
-    <div class="grid-item-filled-record"></div> 
-    <div class="grid-item-filled-record"></div> 
+    <div class="blue tooltip">Standard Health Record
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>  
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
+    <div class="blue tooltip">
+        <span class="tooltiptext">This is where a description of the tooltip text will go.</span>
+    </div>
 </div>
 
 </body>
