@@ -65,8 +65,6 @@ body {
     display: grid; /* May want a mobile version that is a different display that's flexible, responsive */
     grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
     background-color: none;
-    border: 1px solid black;
-    border-top: 0.5px solid rgb(194, 194, 194);
 }
 
 .grid-item {
@@ -180,12 +178,13 @@ body {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
+    height: auto;
   }
   
   .tooltip .tooltiptext {
     visibility: hidden;
     width: 100px;
-    height: 50px;
+    height: auto;
     top: 110%;
     left: 50%;
     margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
