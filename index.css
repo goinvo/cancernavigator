@@ -74,25 +74,42 @@ body {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     background-color: rgb(17, 17, 29);
-    padding: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 0px;
     margin-top: 0px;
 }
 
 .small-font {
     font-size: 12px;
     padding-left: 20px;
+    color:#b9b9b9;
+    line-height: 12px;
+    margin : 0px; 
+    padding-top: 0px;
+}
+
+.footer {
+    font-size: 12px;
+    padding-left: 20px;
+    color:#b9b9b9;
+    text-align: bottom;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 .big-font {
     font-size: 20px;
     font-weight: bold;
     padding-left: 20px;
+    padding-bottom: 0px;
+    margin: 20px 0px 10px;
 }
 .grid-container {
     display: grid; /* May want a mobile version that is a different display that's flexible, responsive */
     grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
     background-color: none;
-    margin-left: 150px;
+    margin-left: 160px;
 }
 
 .grid-item {
