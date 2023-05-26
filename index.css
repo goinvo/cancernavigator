@@ -62,7 +62,17 @@ body {
     line-height: 12px;
     margin : 0px; 
     padding-top: 0px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+}
+
+.services-description {
+    font-size: 12px;
+    padding-left: 20px;
+    color:#b9b9b9;
+    line-height: 12px;
+    margin : 0px; 
+    padding-top: 0px;
+    padding-bottom: 10px;
 }
 
 .small-font-purple {
@@ -71,9 +81,11 @@ body {
     color:#b9b9b9;
     line-height: 12px;
     margin : 0px; 
-    padding-top: 0px;
-    padding-bottom: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-left: 3px solid rgb(78, 0, 92);
+    border-bottom: 1px solid rgb(70, 70, 70);
+    border-top: 1px solid rgb(70, 70, 70);
 }
 
 .small-font-blue {
@@ -81,8 +93,8 @@ body {
     padding-left: 20px;
     color:#b9b9b9;
     line-height: 12px;
-    margin : 0px; 
-    padding-top: 0px;
+    margin-top: 10px; 
+    padding-top: 15px;
     border-left: 3px solid rgb(33, 36, 99);
 }
 
