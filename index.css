@@ -48,7 +48,7 @@ p {
 }
 
 body {
-    background-color: rgb(42, 42, 63);
+    background-color: #2A2A3D;
     padding: 0px 0px 0px 0px;
     margin-top: 0px;
     margin-left: 0px;
@@ -83,7 +83,7 @@ body {
     margin : 0px; 
     padding-top: 15px;
     padding-bottom: 15px;
-    border-left: 3px solid rgb(78, 0, 92);
+    border-left: 2px solid rgb(182, 63, 13);
     border-bottom: 1px solid rgb(70, 70, 70);
     border-top: 1px solid rgb(70, 70, 70);
 }
@@ -194,7 +194,7 @@ body {
 
 .pink {
     color:#ffffff;
-    background-color: rgb(181, 0, 139);
+    background-color: rgb(157, 2, 121);
     border-top: 0.5px solid rgb(99, 99, 99);
     border-bottom: 0.5px solid rgb(99, 99, 99);
     padding: 20px;
@@ -217,7 +217,7 @@ body {
 
 .purple {
     color:#ffffff;
-    background-color: rgb(78, 0, 92);
+    background-color: rgb(182, 63, 13);
     border-top: 0.5px solid rgb(99, 99, 99);
     border-bottom: 0.5px solid rgb(99, 99, 99);
     padding: 20px;
@@ -228,7 +228,7 @@ body {
 
 .purple:hover {
     color:#ffffff;
-    background-color: rgb(147, 0, 173);
+    background-color: rgb(240, 89, 25);
     border-top: 0.5px solid rgb(99, 99, 99);
     border-bottom: 0.5px solid rgb(99, 99, 99);
     padding: 20px;
