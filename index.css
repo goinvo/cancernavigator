@@ -55,16 +55,6 @@ body {
     overflow-y: hidden;
 }
 
-.small-font {
-    font-size: 12px;
-    padding-left: 20px;
-    color:#b9b9b9;
-    line-height: 12px;
-    margin : 0px; 
-    padding-top: 0px;
-    padding-bottom: 73px;
-}
-
 .services-description {
     font-size: 12px;
     padding-left: 20px;
@@ -98,11 +88,20 @@ body {
     border-left: 3px solid rgb(33, 36, 99);
 }
 
+.small-font {
+    font-size: 12px;
+    padding-left: 10px;
+    color:#b9b9b9;
+    line-height: 12px;
+    margin : 0px; 
+    padding-top: 0px;
+    padding-bottom: 73px;
+}
 
 .big-font {
     font-size: 18px;
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-bottom: 0px;
     margin: 20px 0px 10px;
     letter-spacing: 0;
