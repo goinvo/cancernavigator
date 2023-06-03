@@ -80,20 +80,21 @@ body {
     font-size: 12px;
     padding-left: 10px;
     color: #5B5756;
-    line-height: 12px;
+    line-height: 14px;
     margin : 0px; 
     padding-top: 0px;
     padding-bottom: 73px;
 }
 
 .big-font {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     padding-left: 10px;
     padding-bottom: 0px;
     margin: 20px 0px 10px;
-    letter-spacing: 2%;
+    letter-spacing: 1.5px;
     color: #1D1B1A;
+    text-transform: uppercase;
 }
 
 .footer {
@@ -134,6 +135,8 @@ body {
 .pf {
     color:#ffffff;
     background-color: #315475;
+    border-top: 0.5px solid rgb(99, 99, 99);
+    border-bottom: 0.5px solid rgb(99, 99, 99);
     padding: 20px;
     font-size: 12px;
     font-weight: bold;
@@ -172,7 +175,7 @@ body {
 }
 
 .ha:hover {
-    background-color: #7dc2c5;
+    background-color: #70aeb2;
 }
 
 .dnt {
