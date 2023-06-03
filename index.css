@@ -133,7 +133,9 @@ body {
     background-color: #315475;
     border-top: 0.5px solid rgb(99, 99, 99);
     border-bottom: 0.5px solid rgb(99, 99, 99);
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
     font-size: 12px;
     font-weight: bold;
     text-align: left;
@@ -148,7 +150,10 @@ body {
 .cl {
     color:#ffffff;
     background-color: #437377;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
     font-size: 12px;
     text-align: left;
     font-family: "Open Sans", sans-serif;
@@ -163,7 +168,10 @@ body {
 .ha {
     color:#ffffff;
     background-color: #5A8B8E;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
     font-size: 12px;
     text-align: left;
     font-family: "Open Sans", sans-serif;
@@ -177,7 +185,10 @@ body {
 .dnt {
     color:#f7f7f7;
     background-color: #5A8B8E;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
     font-size: 12px;
     text-align: left;
     font-family: "Open Sans", sans-serif;
@@ -192,7 +203,10 @@ body {
 .pn {
     color:#ffffff;
     background-color: #5788BD;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
     font-size: 12px;
     text-align: left;
     font-family: "Open Sans", sans-serif;
@@ -208,7 +222,10 @@ body {
     background-color: #486129;
     border-top: 0.5px solid rgb(99, 99, 99);
     border-bottom: 0.5px solid rgb(99, 99, 99);
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
     font-size: 12px;
     text-align: left;
     font-family: "Open Sans", sans-serif;
@@ -222,7 +239,10 @@ body {
 .sdoh {
     color:#ffffff;
     background-color: #607743;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
     font-size: 12px;
     text-align: left;
     font-family: "Open Sans", sans-serif;
@@ -236,7 +256,10 @@ body {
 .pe {
     color:#ffffff;
     background-color: #9C5310;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
     font-size: 12px;
     text-align: left;
     font-family: "Open Sans", sans-serif;
@@ -250,7 +273,10 @@ body {
 .shr {
     color:#ffffff;
     background-color: #4F4F4F;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
     font-size: 12px;
     text-align: left;
     font-family: "Open Sans", sans-serif;
