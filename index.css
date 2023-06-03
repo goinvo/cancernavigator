@@ -111,7 +111,8 @@ body {
     background-color: none;
     margin-left: 0px;
     margin-right: 0px;
-    margin:auto;
+    width: 100%;
+    overflow-y: scroll;
 }
 
 .grid-item {
