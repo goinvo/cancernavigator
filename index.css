@@ -59,10 +59,7 @@ p {
 body {
     background-color: #ECF7F8;
     padding: 0px 0px 0px 0px;
-    margin-top: 0px;
-    margin-left: 0px;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    margin: 0px;
 }
 
 .services-description {
@@ -113,9 +110,7 @@ body {
     grid-template-columns: 200px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
     background-color: none;
     margin-left: 0px;
-    padding-right: 40px;
-    overflow-x:auto;
-    overflow-y:auto;
+    margin-right: 0px;
     margin:auto;
 }
 
@@ -265,7 +260,7 @@ body {
     background-color: #6e6d6d;
 }
 
-/* Tooltip on Hover */
+/* Bottom Tooltip */
 .tooltip {
     position: relative;
     display: inline-block;
@@ -276,14 +271,14 @@ body {
     visibility: hidden;
     width: 100px;
     height: auto;
-    top: 110%;
+    top: 100%; /* How much spacing between box to carrot tip */
     left: 50%;
     margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
     background-color: rgb(23, 23, 39);;
     color: #fff;
     text-align: left;
     border-radius: 6px;
-    padding: 20px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
   
     /* Position the tooltip */
     position: absolute;
@@ -299,6 +294,52 @@ body {
     position: absolute;
     bottom: 100%;  /* At the top of the tooltip */
     left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
+
+/* Top Tooltip */
+  .tooltiptop {
+    position: relative;
+    display: inline-block;
+    height: auto;
+  }
+  .tooltiptop .tooltiptoptext {
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  }
+  .tooltiptop .tooltiptoptext {
+    visibility: hidden;
+    width: 120px;
+    height: auto;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    background-color: rgb(23, 23, 39);;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    z-index: 3000;
+  }
+  
+  .tooltiptop:hover .tooltiptoptext {
+    visibility: visible;
+  }
+
+  
+  
+  .tooltiptop .tooltiptoptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    rotate: 180deg;
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
